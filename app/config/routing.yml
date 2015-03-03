@@ -1,3 +1,7 @@
+toma_test:
+    resource: "@TomaTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: @AppBundle/Controller/
     type:     annotation
