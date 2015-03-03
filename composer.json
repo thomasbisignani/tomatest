@@ -48,7 +48,11 @@
         "bin-dir": "bin"
     },
     "extra": {
-        "symfony-app-dir": "app",
+        "heroku": {
+            "document-root": "web",
+            "index-document": "index.php"
+        },
+		"symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
@@ -56,10 +60,6 @@
         },
         "branch-alias": {
             "dev-master": "2.6-dev"
-        }
-		"heroku": {
-            "document-root": "web",
-            "index-document": "index.php"
         }
     }
 }
