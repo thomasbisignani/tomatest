@@ -1,1 +1,1 @@
-<?php echo "Automatic deployment OK"; ?>
+<?php echo "Automatic deployment is OK"; ?>
