@@ -63,8 +63,7 @@
               "database_user": "DATABASE_USER",
               "database_password": "DATABASE_PASSWORD"
           }
-        }
-    },
+        },
 		"symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "symfony-assets-install": "relative",
